@@ -1,13 +1,20 @@
 # Brizna · Campo salvaje
 
-Juego de supervivencia para navegador, en español y adaptable a móvil. No necesita instalación: abre el juego en el enlace publicado.
+Dos juegos de supervivencia para navegador, en español y adaptables a móvil. No necesitan instalación.
 
-## Cómo jugar
-- Usa **WASD** o las **flechas** para moverte.
-- En móvil, arrastra el dedo por la arena.
-- Musguito ataca automáticamente. Recoge las motas doradas para subir de nivel y elegir mejoras.
+- **Brizna:** abre `index.html` para defender el claro con Musguito.
+- **Digimon Survivor:** abre `digimon.html` para elegir entre ocho compañeros, combatir, subir de nivel, digievolucionar, completar misiones y mejorar el equipo.
+
+## Controles de Digimon Survivor
+
+- **WASD** o **flechas:** moverse.
+- **1–4:** seleccionar un ataque; **Q/E:** cambiar de ataque.
+- **Esc:** pausar.
+- En móvil, arrastra para moverte y toca un ataque.
+
+El progreso, las mejoras, las misiones y el ranking se guardan localmente en el navegador. Las puntuaciones no se comparten entre jugadores.
 
 ## Publicación
-El juego se publica con GitHub Pages desde la carpeta raíz de la rama main. Para actualizarlo, modifica index.html y sube el cambio a esa rama.
 
-Las partidas se juegan en cada navegador y no se comparten puntuaciones.
+GitHub Pages publica los archivos de la rama `main`. El sitio es estático y el código del juego está en la raíz del repositorio.
+
